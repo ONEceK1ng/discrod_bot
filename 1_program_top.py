@@ -1,0 +1,27 @@
+guest = ['sasha', 'pasha', 'kakasha']
+print(guest)
+invite_k = guest.pop(2)
+invite_n = guest.insert(0, 'Natasha')
+invite_ka = guest.insert(2, 'Katusha')
+invite_t = guest.append('Tarakasha')
+invite_m = guest.append('Masha')
+print( "Go katku " + guest[0].title() + ".")
+print( "Go katku " + guest[1].title() + ".")
+print( "Go katku " + guest[2].title() + ".")
+print( "Go katku " + guest[3].title() + ".")
+print( "Go katku " + guest[4].title() + ".")
+print(guest)
+print( invite_k + "he livnul is katki")
+print(guest[2] + " ne mogu pozvat, sorry")
+print(guest[3] + " ne mogu pozvat, sorry")
+print(guest[4] + " ne mogu pozvat, sorry")
+print(guest[5] + " ne mogu pozvat, sorry")
+invite_n = guest.pop()
+invite_t = guest.pop()
+invite_ka = guest.pop()
+invite_m = guest.pop()
+print(guest)
+del guest[1]
+del guest[0]
+print(guest)
+
